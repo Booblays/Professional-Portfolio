@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Samuel Sook's Portfolio</title>
 </head>
 
+<!--Header-->
 <body>
     <header id="header">
         <h1>
-        <a href="#header">Samuel Sook</a>
+            <a href="#header">Samuel Sook</a>
         </h1>
 
         <nav>
@@ -20,7 +22,7 @@
                 </li>
 
                 <li>
-                    <a href="#my-work">My  Work</a>
+                    <a href="#my-work">My Work</a>
                 </li>
 
                 <li>
@@ -31,28 +33,30 @@
     </header>
 
     <!--Hero-->
-    <section>
-        <div>
-            <img src="./assets/images/hero-picture.jpg" alt="Trail in a redwood forest">
-        </div>
+    <section class="hero">
+        <img src="./assets/images/hero-picture.jpg" alt="Trail in a redwood forest">
     </section>
 
     <!--About Me-->
     <section id="about-me">
-        <div>
+        <div class="section-head">
             <h2>About Me</h2>
         </div>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam blanditiis 
-            unde quae consequuntur cum sit rerum, facilis perferendis ipsum fuga, sapiente vero rem,
-            dolorem accusantium dignissimos doloremque tenetur quia!
-        </p>
+        <div class="about-me-text">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam blanditiis 
+                unde quae consequuntur cum sit rerum, facilis perferendis ipsum fuga, sapiente vero rem,
+                dolorem accusantium dignissimos doloremque tenetur quia!
+            </p>
+        </div>
     </section>
 
     <!--My Work-->
     <section>
-        <h2 id="my-work">My Work</h2>
+        <div class="section-head">
+            <h2 id="my-work">Work</h2>
+        </div>
 
         <div>
             <img src="/" alt="Hi Bryce">
@@ -70,7 +74,9 @@
 
     <!--contact-me-->
     <footer>
-        <h2 id="contact-me">Contact Me</h2>
+        <div class="section-head">
+            <h2 id="contact-me">Contact Me</h2>
+        </div>
 
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, sint delectus. 
